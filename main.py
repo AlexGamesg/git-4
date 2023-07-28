@@ -18,8 +18,7 @@ def has_symbols(a):
 def main():
   
   a=input()
-  score=0
-  combacks=[has_upper_letters,is_very_long,has_digit,has_letters,has_lower_letters,has_symbols]
+  score=1  combacks=[has_upper_letters,is_very_long,has_digit,has_letters,has_lower_letters,has_symbols]
   for comback in combacks:
     if comback(a):
       score=score+2
